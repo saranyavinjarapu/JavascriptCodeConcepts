@@ -1,0 +1,44 @@
+html,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.concepts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  max-height: 170px;
+  overflow-y: auto;
+  margin: 5px;
+  padding: 20px;
+}
+
+button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: aqua;
+  color: black;
+}
