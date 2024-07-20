@@ -7,13 +7,17 @@
   <body>
     <div class="main">
       <header>
-        <h1>REVERSE EACH WORD IN SENTENCE</h1>
+        <h1>REVERSE EVERY STRING IN A SENTENCE</h1>
         <button class="backButton" onclick="document.location='/index.html'">
           Back To Main Menu
         </button>
       </header>
       <div class="content">
-        <button onclick="changeColor()">CLICK TO CHANGE COLOR</button>
+        <div class="inputContainer">
+          <input type="text" id="sentence" placeholder="Enter Sentence" />
+          <button onclick="reverseString()">REVERSE STRING</button>
+        </div>
+        <div id="reversedString"></div>
       </div>
     </div>
     <script src="main.js"></script>
