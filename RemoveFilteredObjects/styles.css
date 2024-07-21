@@ -1,0 +1,51 @@
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.backButton {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: wheat;
+  color: black;
+}
+
+button {
+  background-color: rgb(136, 136, 240);
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.content {
+  border: 1px solid grey;
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
