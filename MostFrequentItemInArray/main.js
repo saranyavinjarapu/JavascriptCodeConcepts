@@ -12,8 +12,6 @@ const mostFrequentItemInArray = () => {
     freqArray[acc] > freqArray[num] ? acc : num
   );
 
-  console.log(freqElem);
-
   document.getElementById("mostFrequentItemInArray").innerHTML =
     "Most Frequent Item is : " + freqElem;
 };
